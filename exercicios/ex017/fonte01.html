@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /* Medidas Absolutas
+            cm, mm, in(polegada), px(pixel), pt(ponto), pc(paica)
+
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16 px geralmente é = a 1em
+            */
+            font-size: 16px;
+            font-weight: normal;
+            /* lighter, normal, bold, bolder */
+            /* 100 a 900 */
+            font-style:italic;
+            text-decoration: underline;
+        }
+
+        h1 {
+            /* shorthand font
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style:italic;
+
+            Ordem: font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+        
+        h2 {
+            font: bold 2em 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes </h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus mollitia nesciunt cupiditate eligendi perspiciatis minus. Modi eaque expedita, blanditiis vitae fugit nisi eum dolores, commodi pariatur odit, autem tempore totam.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae inventore temporibus nulla dolorum incidunt ex repellat expedita nesciunt voluptatem, asperiores magni explicabo vitae animi cupiditate ab vel qui fuga. Explicabo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam consectetur rem corrupti neque iste, quasi dolor corporis magni consequatur quos repellat, nobis ab nam sed vitae eligendi dolorum, dicta sunt.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, ex corrupti sequi suscipit voluptatibus quia amet non ab debitis ducimus, aperiam laudantium atque quaerat et officiis quo maxime commodi. Enim?</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque architecto, ex numquam dolorum error illum minima natus, possimus asperiores, a doloremque quibusdam beatae animi repudiandae eaque consequatur debitis. Praesentium, nihil.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste a debitis dicta dolores, nulla laborum eos voluptatum excepturi cumque repudiandae magni pariatur velit voluptas aspernatur perferendis consectetur nostrum aut sed.</p>
+
+
+</body>
+</html>
